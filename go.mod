@@ -1,4 +1,4 @@
-module tayara/go-wc
+module tayara/gowc
 
 go 1.21.0
 

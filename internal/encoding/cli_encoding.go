@@ -3,7 +3,7 @@ package encoding
 import (
 	"fmt"
 	"strings"
-	"tayara/go-wc/internal/wc"
+	"tayara/gowc/internal/wc"
 )
 
 type CLIOptions struct {

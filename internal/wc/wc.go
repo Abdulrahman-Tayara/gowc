@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 	"sync"
-	"tayara/go-wc/internal/utils"
+	"tayara/gowc/internal/utils"
 )
 
 type runeHandler func(r rune, rSize int, eof bool)

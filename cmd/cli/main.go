@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"tayara/go-wc/internal/encoding"
-	"tayara/go-wc/internal/wc"
+	"tayara/gowc/internal/encoding"
+	"tayara/gowc/internal/wc"
 
 	"github.com/urfave/cli/v2"
 )
