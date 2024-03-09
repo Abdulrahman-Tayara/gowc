@@ -2,6 +2,7 @@ package wc
 
 import (
 	"bufio"
+	"bytes"
 	"io"
 	"os"
 	"sync"
@@ -21,6 +22,10 @@ type filenameStatsOutput struct {
 	filename string
 	err      error
 	stats    *Stats
+}
+
+func WCContent(content []byte) (*Stats, error) {
+	return WC(bytes.NewReader(content))
 }
 
 func WCFilenames(filenames ...string) (map[string]Stats, error) {
