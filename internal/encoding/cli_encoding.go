@@ -58,3 +58,7 @@ func marshalNamedStats(name string, stats *wc.Stats, opts *CLIOptions) string {
 
 	return builder.String()
 }
+
+func MarshalStatsCLI(stats wc.Stats, opts CLIOptions) string {
+	return marshalNamedStats("", &stats, &opts)
+}
